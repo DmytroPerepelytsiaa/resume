@@ -1,3 +1,5 @@
+/* Margins */
+
 .my-1 {
   margin-top: 4px;
   margin-bottom: 4px;
@@ -21,4 +23,14 @@
 .my-5 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* Display */
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
