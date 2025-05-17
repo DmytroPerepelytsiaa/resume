@@ -23,10 +23,10 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 460px 800px;
+  grid-template-columns: 460px 980px;
   grid-template-areas: "aside main";
   background-color: var(--background-color);
-  width: 1260px;
+  width: 1440px;
   margin: 0 auto;
 
   border-bottom-right-radius: 10px;
@@ -85,7 +85,7 @@ a {
 .title-container,
 .aside-title {
   display: flex;
-  width: 580px;
+  width: 780px;
   padding: 6px 20px;
   align-items: center;
   gap: 8px;
