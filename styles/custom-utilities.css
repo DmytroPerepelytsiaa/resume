@@ -54,3 +54,23 @@
 .inline-block {
   display: inline-block;
 }
+
+.flex {
+  display: flex;
+}
+
+/* Gaps */
+
+.gap-1 {
+  gap: 4px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+/* Flex type */
+
+.flex-col {
+  flex-direction: column;
+}
