@@ -290,7 +290,7 @@ svg {
 }
 
 .ct-card--current {
-  background: var(--second-color);
+  background: #fff8f3;
   border-left-color: var(--main-color);
 }
 
