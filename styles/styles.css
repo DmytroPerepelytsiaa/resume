@@ -336,11 +336,11 @@ svg {
 }
 
 .ct-period {
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   color: var(--main-color);
-  opacity: 0.55;
-  margin-top: 2px;
+  opacity: 0.75;
+  margin-top: 3px;
 }
 
 .ct-badges {
