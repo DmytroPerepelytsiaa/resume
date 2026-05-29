@@ -116,14 +116,15 @@ svg {
 }
 
 .hero-title {
-  font-size: 32px;
+  font-size: 28px;
   color: var(--second-color);
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .hero-position {
   color: var(--second-color);
   text-align: center;
+  font-size: 32px;
   margin-bottom: 24px;
 }
 .hero-text-title {
@@ -190,7 +191,7 @@ svg {
 
 .avatar {
   object-fit: cover;
-  object-position: 0px 0px;
+  object-position: 20px -100px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
