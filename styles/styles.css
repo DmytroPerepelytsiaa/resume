@@ -267,3 +267,147 @@ svg {
   display: flex;
   flex-direction: column;
 }
+
+.career-timeline-section {
+  padding-bottom: 4px;
+}
+
+.career-timeline {
+  display: flex;
+  align-items: stretch;
+}
+
+.ct-card {
+  flex: 1;
+  padding: 14px 16px;
+  border: 1px solid rgba(55, 55, 65, 0.2);
+  border-left: 4px solid var(--main-color);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+}
+
+.ct-card--current {
+  background: var(--second-color);
+  border-left-color: var(--main-color);
+}
+
+.ct-now {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  color: #fff;
+  background: var(--main-color);
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+.ct-company {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.ct-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border-bottom: 1.5px solid currentColor;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.ct-link:hover {
+  opacity: 1;
+}
+
+.ct-role {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--main-color);
+  opacity: 0.8;
+}
+
+.ct-period {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--main-color);
+  opacity: 0.55;
+  margin-top: 2px;
+}
+
+.ct-badges {
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.ct-badge {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border: 1.5px solid var(--main-color);
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--main-color);
+  opacity: 0.7;
+}
+
+.ct-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(55, 55, 65, 0.12);
+}
+
+.ct-tech-tag {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 6px;
+  background: rgba(55, 55, 65, 0.08);
+  color: var(--main-color);
+  border-radius: 3px;
+  letter-spacing: 0.2px;
+}
+
+.ct-arrow {
+  flex-shrink: 0;
+  width: 44px;
+  position: relative;
+}
+
+.ct-arrow::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  right: 14px;
+  height: 2px;
+  background: var(--main-color);
+  opacity: 0.35;
+  transform: translateY(-50%);
+}
+
+.ct-arrow::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid var(--main-color);
+  opacity: 0.35;
+}
