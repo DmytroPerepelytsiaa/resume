@@ -116,7 +116,7 @@ svg {
 }
 
 .hero-title {
-  font-size: 28px;
+  font-size: 32px;
   color: var(--second-color);
   text-align: center;
   margin-bottom: 8px;
@@ -124,7 +124,7 @@ svg {
 .hero-position {
   color: var(--second-color);
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   margin-bottom: 24px;
 }
 .hero-text-title {
