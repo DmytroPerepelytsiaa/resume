@@ -268,6 +268,76 @@ svg {
   flex-direction: column;
 }
 
+/* Work Experience List */
+.we-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.we-item {
+  padding-bottom: 16px;
+}
+
+.we-company {
+  font-size: 15px;
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.we-company-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.we-company-link:hover {
+  opacity: 1;
+}
+
+.we-company-tag {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--main-color);
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.we-role {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--main-color);
+  opacity: 0.65;
+  margin-bottom: 6px;
+}
+
+.we-bullets {
+  margin-top: 6px;
+}
+
+.we-stack {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--main-color);
+  opacity: 0.65;
+  margin-top: 6px;
+}
+
+.we-divider {
+  border: none;
+  border-top: 1px solid rgba(55, 55, 65, 0.15);
+  margin: 12px 0 16px;
+}
+
 .career-timeline-section {
   padding-bottom: 4px;
 }
